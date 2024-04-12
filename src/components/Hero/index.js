@@ -1,38 +1,37 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Bio } from '../../data/constants';
+import { motion } from 'framer-motion';
 
 const HeroContainer = styled.div`
-background color: light blue;
-display: flex;
-justify-content: center;
-position: relative;
-padding: 80px 30px;
-@media screen and (max-width: 960px){
-  padding: 66px 16px;
-}
-@media screen and (max-width: 640px){
-  padding: 32px 16px;
-}
-z-index: 1;
-clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 80px 30px;
+  height: 80vh;
+  margin-top: 20px;
+  @media screen and (max-width: 960px){
+    padding: 66px 16px;
+  }
+  @media screen and (max-width: 640px){
+    padding: 32px 16px;
+  }
+  z-index: 1;
 `;
 
 const HeroBg = styled.div`
   position: absolute;
   display: flex;
   justify-content: end;
-  top: 0;
+  top: 50%;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 50%;
   width: 100%;
   height: 100%;
   max-width: 1360px;
   overflow: hidden;
   padding: 0 30px;
-  top: 50%;
-  left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 
@@ -80,7 +79,6 @@ const Title = styled.div`
   font-weight: 600;
   font-style: normal;
   font-size: 6rem;
-  margin-top: 50px;
   color: #80ED99;
   line-height: 68px;
   text-shadow:  3px 3px 3px black,
@@ -121,7 +119,7 @@ const HeroRight = styled.div`
   width: 100%;
   display: flex;
   order: 2;
-  justify-content: end;
+  justify-content: center;
   gap: 12px;
   @media (max-width: 960px) {
     order: 1;
@@ -133,6 +131,15 @@ const HeroRight = styled.div`
   @media (max-width: 640px) {
     margin-bottom: 30px;
   }
+`;
+
+const FramerBlob = styled(motion.div)`
+background: #BBBFCA;
+  border-radius: 44% 56% 45% 55% / 55% 48% 52% 45% ;
+  width 350px;
+  height: 350px;
+  box-shadow:  10px 10px 30px #BBBFCA,
+                -10px -10px 30px #BBBFCA;
 `;
 
 const ResumeBtn = styled.a`
@@ -152,9 +159,9 @@ const ResumeBtn = styled.a`
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: rgb(128,237,144);
-    background: -moz-linear-gradient(349deg, rgba(128,237,144,1) 35%, rgba(0,212,255,1) 100%);
-    background: -webkit-linear-gradient(349deg, rgba(128,237,144,1) 35%, rgba(0,212,255,1) 100%);
-    background: linear-gradient(349deg, rgba(128,237,144,1) 35%, rgba(0,212,255,1) 100%);
+background: -moz-linear-gradient(349deg, rgba(128,237,144,1) 35%, rgba(248,196,58,1) 100%);
+background: -webkit-linear-gradient(349deg, rgba(128,237,144,1) 35%, rgba(248,196,58,1) 100%);
+background: linear-gradient(349deg, rgba(128,237,144,1) 35%, rgba(248,196,58,1) 100%);
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
@@ -187,7 +194,12 @@ const Hero = () => {
               Download Resume
             </ResumeBtn>
           </HeroLeft>
-          <HeroRight></HeroRight>
+          <HeroRight>
+            <FramerBlob animate={{ rotate: [0, 300, 200, 0]}} transition={{ repeat: Infinity, duration: 4}}>
+              {" "}
+            </FramerBlob>
+            
+          </HeroRight>
         </HeroSecContainer>
       </HeroContainer>
     </div>
