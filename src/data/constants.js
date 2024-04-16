@@ -260,6 +260,30 @@ export const Bio = {
       
       github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
     },
+    {
+      id: 5,
+      title: "Online Shopping System",
+      date: "Jan 2023 - Mar 2023",
+      description:
+        "A program to manage online shopping system.",
+      image:
+        "/img/shopping.png",
+      tags: ["| Java |"],
+      
+      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    },
+    {
+      id: 6,
+      title: "Online Shopping System",
+      date: "Jan 2023 - Mar 2023",
+      description:
+        "A learning platform for coding enthusiasts.",
+      image:
+        "/img/coderspoint.jpg",
+      tags: ["| HTML |", "| CSS |", "| JavaScript |"],
+      
+      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    },
   
   ];
   

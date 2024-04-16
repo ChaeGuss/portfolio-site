@@ -119,6 +119,7 @@ const Navbar = () => {
                 <NavLink href='#skills'>Skills</NavLink>
                 <NavLink href='#work'>My Work</NavLink>
                 <NavLink href='#education'>Education</NavLink>
+                <NavLink href='#education'>Get In Touch</NavLink>
             </NavItems>
         </NavContainer>
         {

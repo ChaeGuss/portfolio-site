@@ -20,7 +20,7 @@ const index = () => {
         </Heading>
         <Grid container spacing={5} style={{ marginTop: "20px" }}>
           {projects.map((result, index) => (
-            <Grid item xs={12} sm={4} ml={4} key={index}>
+            <Grid item xs={12} sm={4} key={index}>
               <Card sx={{ maxWidth: 345 }}>
                 <CardActionArea>
                   <CardMedia

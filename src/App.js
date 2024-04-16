@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Work from './components/Work'
 import { BrowserRouter as Router } from 'react-router-dom';
+import Contact from './Contact';
 
 const Body = styled.div`
   width: 100%;
@@ -32,6 +33,7 @@ function App() {
             <Education />
           </Wrapper>
           <Work />
+          <Contact />
         </Body>
       </Router>
     </ThemeProvider>
