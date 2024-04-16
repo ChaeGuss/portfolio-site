@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 // @ts-ignore
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Work from './components/Work'
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const Body = styled.div`
@@ -30,6 +31,7 @@ function App() {
             <Skills />
             <Education />
           </Wrapper>
+          <Work />
         </Body>
       </Router>
     </ThemeProvider>
