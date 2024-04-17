@@ -274,7 +274,7 @@ export const Bio = {
     },
     {
       id: 6,
-      title: "Online Shopping System",
+      title: "Coderspoint",
       date: "Jan 2023 - Mar 2023",
       description:
         "A learning platform for coding enthusiasts.",

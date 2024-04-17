@@ -8,12 +8,13 @@ import { projects } from "../../data/constants";
 const Heading = Styled.div`
   text-align: center;
   margin-top: 50px;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #071C21;
 `;
 
 const index = () => {
   return (
-    <div>
+    <div className="work">
       <Container maxWidth="lg">
         <Heading>
           <h2>My Work</h2>

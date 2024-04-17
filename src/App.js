@@ -6,8 +6,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 // @ts-ignore
 import Skills from './components/Skills';
-import Education from './components/Education';
-import Work from './components/Work'
+import Work from './components/Work';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Contact from './Contact';
 
@@ -30,7 +29,6 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
-            <Education />
           </Wrapper>
           <Work />
           <Contact />
