@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { skills } from '../../data/constants';
+import { motion, useScroll } from "framer-motion";
 
 const Container = styled.div`
   display: flex;
@@ -31,6 +32,7 @@ const TitleContainer = styled.div`
   height: auto; /* Adjusted height */
   max-width: 1000px;
   margin-left: 50px;
+  
 `;
 
 const Title = styled.div`
@@ -51,6 +53,9 @@ const Para = styled.div`
     margin-top: 40px;
     max-width: 650px;
     color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+  padding: 40px;
     @media (max-width: 768px) {
         font-size: 16px;
         padding: 20px;
@@ -136,7 +141,7 @@ const Skills = () => {
       <Wrapper>
         <TitleContainer>
           <Title>Hey, I'm Anuththara Perera</Title>
-          <Para>I'm an aspiring software engineering student based in Sri lanka, with a passion for developing web and software solutions. <br/><br/> Beyond coding, I'm an avid learner who is eager to explore new technologies and i thrive on turning ideas into reality. </Para>
+          <Para>I'm an aspiring software engineering student based in Sri lanka, with a passion for developing web and software solutions. <br/><br/> Beyond coding, I'm an avid learner who is eager to explore new technologies. </Para>
         </TitleContainer>
         <SkillsContainer>
           {skills.map((skill) => (

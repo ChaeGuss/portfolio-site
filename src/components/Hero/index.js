@@ -74,7 +74,7 @@ const HeroLeft = styled.div`
   }
 `;
 
-const Title = styled.div`
+const Title = styled(motion.div)`
   font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -134,12 +134,12 @@ const HeroRight = styled.div`
 `;
 
 const FramerBlob = styled(motion.div)`
-background: #BBBFCA;
+background: #80ED99;
   border-radius: 44% 56% 45% 55% / 55% 48% 52% 45% ;
   width 350px;
   height: 350px;
-  box-shadow:  10px 10px 30px #BBBFCA,
-                -10px -10px 30px #BBBFCA;
+  box-shadow:  10px 10px 30px #80ED99,
+                -10px -10px 30px #80ED99;
 `;
 
 const ResumeBtn = styled.a`
