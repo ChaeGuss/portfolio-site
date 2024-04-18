@@ -136,8 +136,8 @@ const HeroRight = styled.div`
 const FramerBlob = styled(motion.div)`
 background: #80ED99;
   border-radius: 44% 56% 45% 55% / 55% 48% 52% 45% ;
-  width 350px;
-  height: 350px;
+  width 320px;
+  height: 320px;
   box-shadow:  10px 10px 30px #80ED99,
                 -10px -10px 30px #80ED99;
 `;

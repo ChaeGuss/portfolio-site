@@ -14,7 +14,7 @@ const Heading = Styled.div`
 
 const index = () => {
   return (
-    <div className="work">
+    <div className="work" id="work">
       <Container maxWidth="lg">
         <Heading>
           <h2>My Work</h2>

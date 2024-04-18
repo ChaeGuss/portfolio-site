@@ -39,7 +39,7 @@ const Contactus = () => {
   };
 
   return (
-    <div className='first-con'>
+    <div className='first-con' id='contact'>
 
         <div className='col-container'>
             

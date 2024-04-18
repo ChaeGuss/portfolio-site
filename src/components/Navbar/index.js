@@ -115,11 +115,10 @@ const Navbar = () => {
                 />
             </MobileIcon>
             <NavItems>
-                <NavLink href='#about'>ME</NavLink>
-                <NavLink href='#skills'>Skills</NavLink>
+                
+                <NavLink href='#skills'>ME</NavLink>
                 <NavLink href='#work'>My Work</NavLink>
-                <NavLink href='#education'>Education</NavLink>
-                <NavLink href='#education'>Get In Touch</NavLink>
+                <NavLink href='#contact'>Get In Touch</NavLink>
             </NavItems>
         </NavContainer>
         {
@@ -144,7 +143,7 @@ const Navbar = () => {
                     }}>My Work</MobileMenuLink>
                     <MobileMenuLink 
 // @ts-ignore
-                    href='#education' onClick={() => {
+                    href='#contact' onClick={() => {
                         setOpen(!open)
                     }}>Education</MobileMenuLink>
                 </MobileMenu>

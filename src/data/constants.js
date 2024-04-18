@@ -203,7 +203,7 @@ export const Bio = {
       title: "Paw Print",
       date: "Jun 2023 - Jul 2023",
       description:
-        "Paw Print is a web application designed to offer pet adoption services.",
+        "A web application designed to offer pet adoption services.",
       image:
         "/img/pawprint.png",
       tags: [
@@ -213,7 +213,7 @@ export const Bio = {
         "| PHP ",
         "| MySQL |",
       ],
-      github: "https://github.com/rishavchanda/Trackify",
+      github: "https://github.com/ChaeGuss/PAW-PRINT",
       
     },
     {
@@ -221,12 +221,12 @@ export const Bio = {
       title: "Platformer",
       date: "Apr 2023 - May 2023",
       description:
-        "Developed a platformer game.",
+        "A platformer game.",
       image:
         "/img/platformer.png",
       tags: ["| Python ", "| Pygame |"],
       
-      github: "https://github.com/rishavchanda/Podstream",
+      github: "https://github.com/ChaeGuss/Python-platformer-game",
       
   
     },
@@ -235,7 +235,7 @@ export const Bio = {
       title: "Dyslingo",
       date: "Oct 2022 - Present",
       description:
-        "Developed a learning platform for people diagnosed with Dyslexia (A learning disability)",
+        "A learning platform for people diagnosed with Dyslexia (A learning disability)",
       image:
         "/img/Dyslingo.png",
       tags: [
@@ -245,7 +245,7 @@ export const Bio = {
         "| Express Js |",
       ],
       
-      github: "https://github.com/rishavchanda/Project-Management-App",
+      github: "https://github.com/ChaeGuss/SE-112",
       
     },
     {
@@ -253,12 +253,12 @@ export const Bio = {
       title: "Scraper",
       date: "Jan 2023 - Mar 2023",
       description:
-        "Developed a image scraping tool.",
+        "A web image scraping tool.",
       image:
         "/img/scraper.png",
       tags: ["| Python ", "| Selenium |"],
       
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+      github: "https://github.com/ChaeGuss/image-scraper",
     },
     {
       id: 5,
@@ -280,17 +280,35 @@ export const Bio = {
         "A learning platform for coding enthusiasts.",
       image:
         "/img/coderspoint.jpg",
-      tags: ["| HTML |", "| CSS |", "| JavaScript |"],
+      tags: ["| HTML ", "| CSS ", "| JavaScript |"],
+      
+      github: "https://github.com/ChaeGuss/coderspoint-website",
+    },
+    {
+      id: 7,
+      title: "Snack King Food Center",
+      date: "Jan 2023 - Mar 2023",
+      description:
+        "A cashier queue management system for a food center.",
+      image:
+        "/img/snack.png",
+      tags: ["| Java |"],
+      
+      github: "https://github.com/ChaeGuss/Snack_king",
+    },
+    {
+      id: 8,
+      title: "Sliding puzzles",
+      date: "Jan 2023 - Mar 2023",
+      description:
+        "A pathfinding data structure using A* algorithm to solve puzzles from text files.",
+      image:
+        "/img/path.png",
+      tags: ["| Java |"],
       
       github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
     },
   
   ];
   
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
-  ];
+  
