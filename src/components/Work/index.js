@@ -42,7 +42,7 @@ const index = () => {
                 </CardActionArea>
                 <CardActions>
                   <Button size="small" color="primary">
-                   GitHub<a href={result.github}></a>
+                   <a href={result.github}>GitHub</a>
                   </Button>
                 </CardActions>
               </Card>

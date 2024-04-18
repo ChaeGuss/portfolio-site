@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { skills } from '../../data/constants';
-import { motion, useScroll } from "framer-motion";
 
 const Container = styled.div`
   display: flex;
